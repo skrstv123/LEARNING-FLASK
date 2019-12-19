@@ -13,6 +13,7 @@ boot = """<!-- Latest compiled and minified CSS -->
 #About the First Parameter 
 #The idea of the first parameter __name__
 # is to give Flask an idea of what belongs to your application. This name is used to find resources on the filesystem, can be used by extensions to improve debugging information and a lot more.
+#so basically we're telling flask that all the resources (templates, static files, etc) are placed in the same directory which contains this python file
 
 @app.route('/')
 def index():
