@@ -2,7 +2,7 @@
 
 Learning how to make a readme too! from [here](https://www.makeareadme.com/) :) 
 
-##files map
+## files map
 
 templates.py contains dynamicRoutes.py contains helloworld.py 
 ```python
@@ -10,7 +10,7 @@ templates.py contains dynamicRoutes.py contains helloworld.py
 from thatFile import *
 ```
 
-##current site map 
+## current site map 
 
 | file  | end points |
 | ------------- | ------------- |
