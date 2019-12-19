@@ -19,6 +19,11 @@ def index():
 	"""
 	return html 
 	
+@app.route('/skrstv123')
+def prof():
+	return "<script>location.replace('https://skrstv123.github.io')</script>"
+	
+	
 if __name__=='__main__':
 	app.run() 
 
