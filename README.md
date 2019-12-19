@@ -15,7 +15,7 @@ from thatFile import *
 | file  | end points |
 | ------------- | ------------- |
 | helloworld.py  | host/  |
-|                | /[skrstv123](https://skrstv123.github.io)  |
+|                | host/[skrstv123](https://skrstv123.github.io)  |
 | ------------- | ------------- |
 | dynamicRoutes.py  | host/dr/<var>  |
 | ------------- | ------------- |
