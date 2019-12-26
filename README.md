@@ -9,6 +9,15 @@ form1.py contains links.py contains templates.py contains dynamicRoutes.py conta
 #inside this file 
 from thatFile import *
 ```
+## topics covered :
+
+* creating basic app
+* basic route & dynamic route
+* debug mode
+* templates and jinja tags
+* template inheritance
+* basic form
+* WTF forms
 
 ## current site map 
 
