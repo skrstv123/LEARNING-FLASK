@@ -4,7 +4,7 @@ Learning how to make a readme too! from [here](https://www.makeareadme.com/) :)
 
 ## files map
 
-templates.py contains dynamicRoutes.py contains helloworld.py 
+form1.py contains links.py contains templates.py contains dynamicRoutes.py contains helloworld.py 
 ```python
 #inside this file 
 from thatFile import *
@@ -22,6 +22,15 @@ from thatFile import *
 | templates.py  | host/templates/basic  |
 |               | host/templates/jinja  |
 |               | host/templates/jinja1  |
+|               | host/base  |
+|               | host/templates/child/<text>  |
+| ------------- | ------------- |
+| links.py  | host/links  |	
+| ------------- | ------------- |
+| form1.py  | host/home  |
+|               | host/form  |
+|               | host/thanks  |
+|               | --added 404 handler--  |
 | ------------- | ------------- |
 
 
