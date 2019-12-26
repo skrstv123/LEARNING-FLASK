@@ -17,7 +17,6 @@ from thatFile import *
 * templates and jinja tags
 * template inheritance
 * basic form
-* WTF forms
 
 ## current site map 
 
