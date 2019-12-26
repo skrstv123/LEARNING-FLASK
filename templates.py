@@ -15,6 +15,15 @@ def jinjaControl():
 	#<!-- a jinja flow control is kept in {% %} and it must have a {% endFLOW %} -->
 	var = list(range(1,21,3))
 	return rtm('tmp2.html',numList = var) 
+
+# --------------------template inheritance----------------------
+@app.route('/base')
+def base():
+	return rtm('base.html')
+@app.route('/child/<text>')
+def child(text):
+	return rtm('inherited.html',text = text)
+
 	
 if __name__=='__main__':
 	app.run(debug=1) 

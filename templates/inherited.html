@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+<!-- here we're editing only the content blocl -->
+{% block content %}
+<hr thickness = 5px style="color: green" width="70%">
+<h4 style="font-style: monotype corsiva; text-align: center;"><i>this comes from children template</i><b>{{ text|sort }}</b></h4>
+<!-- var|function is the syntax for applying filters -->
+<hr thickness = 5px style="color: green" width="70%">
+{% endblock %} 

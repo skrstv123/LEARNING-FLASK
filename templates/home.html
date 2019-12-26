@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block link %}
+<a style="border:5px; border-radius: 3px; border-color: red;" href="{{url_for('home')}}"><h1>home</h1></a>
+{% endblock %}
+
+{% block content %}
+<a href="{{url_for('form')}}" style="text-align: center;"><b>sign up here</b></a>
+{% endblock %}

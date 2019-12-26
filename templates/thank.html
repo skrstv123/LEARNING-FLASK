@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block link %}
+<a style="border:5px; border-radius: 3px; border-color: red;" href="{{url_for('home')}}"><h1>home</h1></a>
+{% endblock %}
+
+{% block content %}
+<div>
+	<i><h4>thanks {{name}} , you're {% if age <18 %}
+		not 
+	{% endif %}
+	 eligibe for voting.
+	</h4></i>
+</div>
+{% endblock %}
