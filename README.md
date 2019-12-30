@@ -14,3 +14,8 @@
 * template inheritance
 * basic form
 	* request func
+* flask_wtf forms
+	* FlaskForm
+	* fields 
+* flask session 
+* flash messages
