@@ -1,6 +1,6 @@
 # LEARNING-FLASK
 
-Learning how to make a readme too! from [here](https://www.makeareadme.com/) :) 
+[MDs](https://www.makeareadme.com/) :) 
 
 ## files map
 
