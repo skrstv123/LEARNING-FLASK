@@ -19,3 +19,4 @@
 	* fields 
 * flask session 
 * flash messages
+* database and flask sqlalchemy
